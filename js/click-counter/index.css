@@ -1,11 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+}
+
+.wrapper > * {
+    width: 50%;
+    height: 50%;
+}
+
 .red {
-  background: #900;
+    background: #900;
 }
 
 .green {
-  background: #090;
+    background: #090;
 }
 
 .blue {
-  background: #009;
+    height: 100%;
+    background: #009;
 }
